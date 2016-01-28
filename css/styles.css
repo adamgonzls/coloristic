@@ -170,9 +170,40 @@ nav#main li a:not(.button) {
 	color: #96eaba;
 }
 
+.inline-list {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.inline-list li {
+	margin: 0 20px;
+	margin-bottom: 20px;
+}
+
 .recent .item {
 	padding: 100px 0;
 	margin-top: 30px;
+}
+
+.recent .show-more {
+	margin-top: 40px;
+}
+
+.recent li a {
+	color: #fff;
+	border: 2px solid transparent;
+	padding: 8px 20px;
+	border-radius: 5px;
+	font-weight: 600;
+}
+
+.recent li a:hover {
+	border: 2px solid #fff;
+}
+
+.recent li.selected a {
+	color: #27ae60;
+	background-color: #fff;
 }
 
 /*
@@ -190,6 +221,10 @@ nav#main li a:not(.button) {
 	background: #3a3a3a;
 }
 
-
+.button-secondary,
+.button-secondary:hover {
+	color: #3a3a3a;
+	background: #fff;
+}
 
 
