@@ -71,7 +71,6 @@ h5 {
 	background-color: #028ca6;
 }
 
-
 /*try to find a way not to use an id*/
 header#main {
 	margin-bottom: 40px;
@@ -226,5 +225,3 @@ nav#main li a:not(.button) {
 	color: #3a3a3a;
 	background: #fff;
 }
-
-
